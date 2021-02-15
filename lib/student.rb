@@ -40,7 +40,7 @@ def initialize(name, grade, id=nil)
   def self.create(name,grade)
     student = Student.new(name,grade,id=nil)
     student.save
-    tudent
+    student
   end
 
 
